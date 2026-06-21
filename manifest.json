@@ -3,7 +3,7 @@
 	"name": "Podvault",
 	"version": "0.1.0",
 	"minAppVersion": "1.4.0",
-	"description": "Podvault — 把播客存进你的知识金库：粘贴小宇宙/RSS/Spotify 链接，自动生成逐字稿、摘要、知识点和大纲，直接入库 Obsidian。",
+	"description": "Paste Xiaoyuzhou podcast links to generate timestamped transcripts, summaries, knowledge points, and outlines in Obsidian.",
 	"author": "mcdull",
 	"authorUrl": "",
 	"isDesktopOnly": false
