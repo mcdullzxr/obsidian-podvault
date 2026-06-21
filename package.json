@@ -6,6 +6,7 @@
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"release": "npm run build && gh release create 0.1.0 main.js manifest.json styles.css --repo mcdullzxr/obsidian-podvault --title \"Podvault v0.1.0\" --notes-file release-notes.md",
 		"version": "node version-bump.mjs && git add manifest.json versions.json"
 	},
 	"keywords": [
